@@ -1,0 +1,185 @@
+<link rel="stylesheet" href="style.css" id="stylesheeet">
+<body>
+    <main>
+    <div class="absolute"id="popup1" class="overlay">
+      
+        <div class="popup">
+          <h2>Available Notes</h2>
+          <a class="close" href="index.html">×</a>
+          <div class="content">
+            <style>
+              body {
+                        background: black;
+                    }
+            </style>
+                <p>Available notes can find here, some notes are processing:</p>
+                
+                <table>
+                  <th><p>Revision-2015</p></th>
+                </table>
+                <table>
+                  <tr>
+                    <th>Semester</th>
+                    <th>Course</th>
+                    <th>Available</th>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>3001-Environmental Science & Disaster Management</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>3031-Analog Devices & Circuits</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>3032-Electrical Measuring Instruments</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>3033-Fundamentals of AC Systems</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>3034-Mechanical Engineering</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>4031-DC Machines</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>4032-Digital Electronics & Microprocessors</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>4033-Electrical Estimating and Costing</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>4034-Electric Power Generation, Transmission & Distribution</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>4037-Electrical Engineering Drawing</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>5001-Industrial Management & Safety</td>
+                    <td><p><a href="https://drive.google.com/file/d/1pVbVrCtHHQl7QQgWRicgEljfNcYDci13/view?usp=drivesdk">Available!</a></p></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>5031-Induction Machines</td>
+                    <td><a href="https://drive.google.com/file/d/1GCp64OdcV1ITJ92wo70OVtDrOrwQ7jHo/view?usp=drive_link">Available!</a></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>5032-Power Electronics</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>5035-Renewable Energy Sources</td>
+                    <td><p><a href="https://drive.google.com/file/d/1MwcLLRuIAmiepOHl_bgR9vk60HfKf2_u/view?usp=drivesdk">Available!</a></p></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>6031-Electrical Power Utilization & System Protection</td>
+                    <td><p><a href="https://drive.google.com/file/d/1oGi0jyp2zEAEtJDZGS27ay8EcCqB9JOa/view?usp=drive_link">Available!</a></p></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>6032-Microcontrollers and Programmable logic Controllers</td>
+                    <td><p><a href="https://drive.google.com/file/d/1DOIoHIpkj0fchm74T6VFvsDaz5Tg9R6C/view?usp=drive_link">Available!</a></p></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>6033-Synchronous Machines & FHP Motors</td>
+                    <td><p><a href="https://drive.google.com/file/d/11WwMY2-ioEJ-J_ouh8pfVbbzwp2Zqbmz/view?usp=drive_link">Available!</a></p></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>6036-Industrial Automation</td>
+                    <td></td>
+                  </tr>
+                  
+              </table>
+                        <style>
+                          body {
+                            font-family: Arial, sans-serif;
+                            background: transparent;
+                            background-size: cover;
+                            background-color: black;
+                          }
+                            
+                          
+                          
+                          
+                          
+                          .overlay {
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            background: rgba(0, 0, 0, 0.7);
+                            transition: opacity 500ms;
+                            visibility: hidden;
+                            opacity: 0;
+                          }
+                          .overlay:target {
+                            visibility: visible;
+                            opacity: 1;
+                          }
+                          
+                          .popup {
+                            margin: 70px auto;
+                            padding: 20px;
+                            background: #fff;
+                            border-radius: 8px;
+                            width: 70%;
+                            position: relative;
+                            transition: all 5s ease-in-out;
+                          }
+                          .popup h2 {
+                            margin-top: 0;
+                            color: #333;
+                            font-family: Tahoma, Arial, sans-serif;
+                          }
+                          
+                          .popup .close {
+                            position: absolute;
+                            top: 20px;
+                            right: 30px;
+                            transition: all 200ms;
+                            font-size: 30px;
+                            font-weight: bold;
+                            text-decoration: none;
+                            color: #333;
+                          }
+                          
+                          .popup .close:hover {
+                            color: red;
+                          }
+                          
+                          .popup .content {
+                            max-height: 60%;
+                            overflow: auto;
+                          }
+                        </style>
+        </div>
+  </main>
+  </body>
+  </html>
+  
