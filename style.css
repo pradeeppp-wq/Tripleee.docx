@@ -161,7 +161,6 @@ video {
   flex: 1;
   max-width: 600px;
   padding-right: 50px;
-  color: #fff;
   margin-left: 5%;
   
   
@@ -177,6 +176,7 @@ video {
   align-items: center;
   text-align: justify;
   margin-bottom: 20px;
+    color:#fff(41, 85, 179);
 }
 
 .about-image {
