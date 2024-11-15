@@ -153,6 +153,7 @@ video {
 /*about*/
 
 .about {
+    background-image: url(about(2).png); width: 100%; height:100%; background-position: center; background-repeat: no-repeat; background-size: cover;
   display: flex;
   padding: 80px 0;
 }
@@ -162,7 +163,7 @@ video {
   max-width: 600px;
   padding-right: 50px;
   margin-left: 5%;
-  
+
   
 }
 
@@ -178,19 +179,6 @@ video {
   margin-bottom: 20px;
     color:#fff(41, 85, 179);
 }
-
-.about-image {
-  max-width: 50%;
-  margin-right: 5%;
-  align-items: right;
-}
-
-.about-image img {
-  max-width: 100%;
-  height: 50vh;
-  border-radius: 8px;
-}
-
 
 
 
