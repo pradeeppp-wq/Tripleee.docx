@@ -153,7 +153,7 @@ video {
 /*about*/
 
 .about {
-    background-image: url(about(2).png); width: 100%; height:100%; background-position: center; background-repeat: no-repeat; background-size: cover;
+  color: black;
   display: flex;
   padding: 80px 0;
 }
