@@ -156,6 +156,7 @@ video {
   color: black;
   display: flex;
   padding: 80px 0;
+    border-radius: 10px;
 }
 
 .about {
@@ -168,7 +169,7 @@ video {
 }
 
 .about h2 {
-  font-size: 36px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
