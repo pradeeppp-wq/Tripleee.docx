@@ -148,7 +148,48 @@ video {
   height: 100%;
   object-fit: cover; /* Key property for resizing */
 }
+/*Topicx 1.0*/
+.grid-container {
+      display: flex;
+      
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 10px;
+      padding: 10px;
+      overflow-y: hidden;
+      outline-width: none;
+      scrollbar-width: none;
+      margin: 10px 50px;
+    }
 
+    .grid-container a {
+      padding: 10px;
+      text-decoration: none;
+      color: #000;
+      cursor: pointer;
+      font-size: 30px;
+    }
+    .grid-img {
+      height:auto;
+      width: 70%; 
+    }
+
+    
+    .grid-container button {
+      padding: 10px;
+      background-color: #E1E1E8;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 30px;
+      height: 20%;
+      
+    }
+
+
+    .grid-container button:hover {
+      background-color: #a1a1a8;
+    }
 
 /*about*/
 
